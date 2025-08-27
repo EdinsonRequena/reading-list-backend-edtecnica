@@ -123,6 +123,7 @@ export async function listBooks(req, res) {
  */
 export async function getBook(req, res) {
   // 1) Extraemos el id de la URL: /api/books/:id
+  // jnrkjnkjnvfrjknfrjknrfkjnlwefjkn
   const { id } = req.params;
 
   // 2) Buscamos en la base por ID
